@@ -1,0 +1,23 @@
+{
+  "name": "image-asset-generator",
+  "version": "1.0.0",
+  "description": "MCP server for generating image assets from natural language descriptions",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "openai": "^4.90.0",
+    "fs-extra": "^11.3.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
