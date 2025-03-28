@@ -12,9 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google/generative-ai": "^0.24.0",
     "@modelcontextprotocol/sdk": "^1.8.0",
-    "openai": "^4.90.0",
     "fs-extra": "^11.3.0",
+    "openai": "^4.90.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
