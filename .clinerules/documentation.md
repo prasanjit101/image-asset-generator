@@ -9,7 +9,7 @@ This MCP server provides a tool (`generate_images`) to generate multiple images 
 *   **Multiple Image Generation:** Generate several images in parallel from a list of descriptions and filenames.
 *   **Dual Provider Support:** Supports image generation using either:
     *   OpenAI DALL-E 3
-    *   Google Gemini (currently targeting `gemini-1.5-flash-latest`)
+    *   Google Gemini (currently targeting `gemini-2.0-flash-exp-image-generation`)
 *   **Automatic Provider Selection:** The server automatically detects which service to use based on the environment variables provided when starting the server.
 
 ## Configuration
